@@ -3,14 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Food Website UI</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
-</head>
-<body>
-    <header>header</header>
-    <main>main</main>
-    <footer>footer</footer>
-    
+  <header class="navbar">
+    <div class="logo">
+      <span>🍔</span> BURGER
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Our Menu</a></li>
+        <li><a href="#">Offer</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu-icon">☰</div>
+  </header>
+
+  <!-- 2. Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="rating">
+        <span class="stars">★★★★★</span> 4.5
+        <span class="review-count">5k+ Happy Reviews</span>
+      </div>
+      
+      <p class="subtitle">Crispy, Crunchy, Veggie Deliciousness!</p>
+      <h1>Burgers That<br>Love the Earth!</h1>
+      
+      <div class="cta-buttons">
+        <button class="btn-primary">Explore</button>
+        <button class="btn-secondary">
+          <span class="play-icon">▶</span> How to get order...
+        </button>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <div class="badge">75%<br><span>OFF</span></div>
+      <img src="./assets/image/121.png" alt="Delicious Burger">
+    </div>
+  </section>
+
+  <!-- 3. Hot Items Section -->
+  <section class="hot-items">
+    <div class="section-header">
+      <span class="tag-line">— HOT ITEMS —</span>
+      <p>LOCALLY SOURCED, ORGANIC INGREDIENTS FOR A FRESH AND ECO-FRIENDLY EXPERIENCE</p>
+    </div>
+
+    <div class="cards-container">
+      <button class="arrow-btn left">‹</button>
+
+      <div class="cards-wrapper">
+        <!-- Card 1 -->
+        <div class="card">
+          <img src="./assets/image/3333.png" alt="Veg Chirpy Burger">
+          <h3>Veg Chirpy Burger</h3>
+          <p class="price">₾200.00</p>
+          <button class="cart-btn">🛍️</button>
+        </div>
+
+        <!-- Card 2 (Active/Featured) -->
+        <div class="card featured">
+          <img src="./assets/image/photo-1586190848861-99aa4a171e90.jpg" alt="Veg Chirpy Burger">
+          <h3>Veg Chirpy Burger</h3>
+          <p class="price">₾200.00</p>
+          <button class="cart-btn">🛍️</button>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+          <img src="./assets/image/photo-1550547660-d9450f859349.jpg" alt="Veg Chirpy Burger">
+          <h3>Veg Chirpy Burger</h3>
+          <p class="price">₾200.00</p>
+          <button class="cart-btn">🛍️</button>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card">
+          <img src="./assets/image/photo-1571091718767-18b5b1457add.jpg" alt="Veg Chirpy Burger">
+          <h3>Veg Chirpy Burger</h3>
+          <p class="price">₾200.00</p>
+          <button class="cart-btn">🛍️</button>
+        </div>
+      </div>
+
+      <button class="arrow-btn right">›</button>
+    </div>
+  </section>
+
+  <!-- 4. Promo Banner Section -->
+  <section class="promo-banner">
+    <div class="promo-content">
+      <span class="promo-sub">Get Up To</span>
+      <h2>50% OFF</h2>
+      <p>On Your 2 Orders</p>
+      <button class="btn-order">Order Now</button>
+    </div>
+    <div class="promo-image">
+      <img src="./assets/image/photo-1610614819513-58e34989848b.jpg" alt="Burger Combo Deals">
+    </div>
+  </section>
+
 </body>
 </html>
